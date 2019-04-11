@@ -1,2 +1,2 @@
-# assignment5-6
-This is a faux website created for a project. 
+Near Comleted project
+view it here https://subhyde.github.io/allofthedogs/
