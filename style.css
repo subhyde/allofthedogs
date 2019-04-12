@@ -203,6 +203,7 @@ nav > ul > li > .a {
 }
 
 #footer {
+    float:bottom;
     display: flex;
     flex-direction: row;
     position: static;
