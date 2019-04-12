@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="shortcut icon" type="img/png" href="images/logo.png" />
+        <title>Products</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Kanit:800"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+            crossorigin="anonymous"
+        />
+    </head>
+    <a href="index.html">
+        <img id="logo" src="images/logo.png" alt="logo" />
+    </a>
+    <header id="Title">All Of The Dogs</header>
+
+    <body onload="insertitems(products)">
+        <div class="MenuBar">
+            <a href="index.html">Home</a>
+            <a class="active" href="products.html">Products</a>
+            <a href="about.html">About Us</a>
+            <a id="contact" href="contact.html">Contact Us</a>
+        </div>
+        <div id="productbody">
+            <div id="productloader"></div>
+        </div>
+
+        <div>
+            <nav>
+                <h1>Sort By</h1>
+                <ul>
+                    <li id="g"><a href="#"> Lowest to highest</a></li>
+                    <li id="h"><a href="#">Highest to lowest</a></li>
+                    <li id="i"><a href="#">Most Popular</a></li>
+                </ul>
+                <h1>Sort By Group</h1>
+                <ul>
+                    <li id="e"><a href="#">Clothing (7)</a></li>
+                    <li id="f"><a href="#"> Accessories (5)</a></li>
+                </ul>
+                <h1>Categories</h1>
+                <ul>
+                    <li id="a1"><a href="#">All Items (12)</a></li>
+                    <li id="a"><a href="#">Bow Ties (3)</a></li>
+                    <li id="b"><a href="#">Leashes (5)</a></li>
+                    <li id="c"><a href="#">Shirts (2)</a></li>
+                    <li id="d"><a href="#">Collared Shirts (2)</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="footer">
+            <table id="footertable">
+                <thead>
+                    <tr>
+                        <th>QUICK LINKS</th>
+                        <th>RETURNS</th>
+                        <th>OTHER INFORMATION</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="products.html">PRODUCTS</a></td>
+                        <td><a href="returns.html">RETURN POLICY</a></td>
+                        <td><a href="PRIVACY.html">PRIVACY POLICY</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="about.html">ABOUT US</a></td>
+                        <td></td>
+                        <td><a href="TOS.html">TERMS & CONDITIONS</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="contact.html">CONTACT US</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <form
+                id="form"
+                action="https://formspree.io/ejohnson16@myseneca.ca"
+                method="POST"
+            >
+                <div id="signupbar">
+                    <label>Sign up for our mailing list!</label>
+                    <input
+                        placeholder="Example@Example.com"
+                        type="email"
+                        required
+                    />
+                    <input type="submit" value="Sign Up" />
+                </div>
+            </form>
+        </div>
+
+        <script src="products.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+
+#Title {
+    font-family: "Kanit", sans-serif;
+    font-style: italic;
+    text-align: left;
+    font-size: 3em;
+
+    padding-top: 40px;
+    display: flex;
+}
+#dog-running {
+    height: 400px;
+    width: 100%;
+}
+#dog-yellow {
+    width: 20%;
+    height: 20%;
+    float: right;
+    margin-top: 8em;
+    padding-bottom: 2em;
+    padding-right: 1em;
+}
+#intro {
+    @import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz");
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 40px 0;
+}
+
+.MenuBar {
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    z-index: 1;
+    overflow: hidden;
+    top: 0;
+}
+
+/* Style the links inside the navigation bar */
+.MenuBar a {
+    float: left;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.MenuBar #contact {
+    margin-left: auto;
+}
+
+.product-links a {
+    display: inline-block;
+    margin-left: 5px;
+    color: #e1e1e1;
+    transition: 0.3s;
+    font-size: 17px;
+}
+.product-details h4 a {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    color: #363636;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.product-links a:hover {
+    color: #fbb72c;
+}
+.product-links a:active {
+    color: red;
+}
+
+/* Change the color of links on hover */
+.MenuBar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.MenuBar a.active {
+    background-color: #fad110;
+    color: white;
+}
+
+body {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #faefca;
+    font-family: "Roboto", sans-serif;
+}
+
+#aboutusall {
+    text-align: left;
+    padding-right: 30%;
+    padding-top: 40px;
+    margin-left: 5px;
+}
+#aboutus {
+    padding-top: 50px;
+
+    text-align: center;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.product-card {
+    float: left;
+    width: 340px;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 30px 10px 10px 10px;
+    background: #fafafa;
+}
+
+.product-tumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 50px;
+    background: #f0f0f0;
+}
+
+.product-tumb img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product-details {
+    padding: 30px;
+}
+
+.product-catagory {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ccc;
+    margin-bottom: 18px;
+}
+
+.product-details h4 a:hover {
+    color: #fbb72c;
+}
+
+.product-details p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 18px;
+    color: #999;
+}
+
+.product-bottom-details {
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.product-bottom-details div {
+    float: left;
+    width: 50%;
+}
+
+.product-price {
+    font-size: 18px;
+    color: #fbb72c;
+    font-weight: 600;
+}
+
+.product-price small {
+    font-size: 80%;
+    font-weight: 400;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.product-links {
+    text-align: right;
+}
+
+nav {
+    margin-top: 15px;
+    position: fixed;
+    border: 3px solid black;
+    padding: 3px 10px 3px 0;
+    border-radius: 5px;
+    background-color: #fade7c;
+    margin-right: 1px;
+    display: block;
+}
+nav > ul > li > .a {
+    color: green;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    margin-top: 100px;
+    bottom: 0;
+    height: 130px;
+    width: 100%;
+    background-color: #fad05b;
+    color: white;
+    text-align: center;
+}
+#signupbar {
+    float: right;
+    grid-row: auto;
+    padding-right: 40px;
+    width: 250px;
+}
+.container {
+    border: 1px solid black;
+    padding: 1em;
+    max-width: 700px;
+    min-width: 300px;
+    margin: 70px auto 1em;
+
+    font-size: 1em;
+
+    display: grid;
+}
+input,
+textarea {
+    width: 100%;
+    font-size: 1em;
+    border-radius: 0.25em;
+    border: 1px solid #fac4cb;
+    float: right;
+}
+textarea {
+    grid-column: 2 / 3;
+}
+label {
+    float: left;
+}
+
+#p1,
+#p2,
+#h1,
+#h2 {
+    padding-bottom: 20px;
+}
+
+td,
+th {
+    padding-left: 150px;
+    margin: 0 auto;
+}
+
+#footertable {
+    margin: 0 auto;
+}
+#homebanner {
+    width: 80%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#productbody {
+    margin-left: 200px;
+}
+
+#logo {
+    float: left;
+    width: 3%;
+    height: 3%;
+    padding-top: 50px;
+    margin-right: 15px;
+}
+
+#returnbody p {
+    padding-bottom: 30px;
+}
+
+#termsandconditions {
+    margin: 20px 40px;
+}
+#privacycss {
+    margin: 50px 40px;
+}
+#contactp {
+    text-align: center;
+    font-size: 2em;
+    margin: auto;
+    padding-right: 40px;
+}

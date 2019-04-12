@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" type="img/png" href="images/logo.png" />
+        <title>All Of The Dogs</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Kanit:800"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+            crossorigin="anonymous"
+        />
+    </head>
+
+    <body>
+        <!--
+      Part 1: Main Store Page
+
+      Requirements:
+
+      1. Navbar or Title bar across the top must include your store's name, logo,
+      and use a darker background colour, different font, etc.  You must also include
+      a link to your contact.html page.
+
+      2. Header below the navbar with store Title in appropriate font, as well
+      as info about what the store is, what it sells, etc.  Use some images to
+      try and draw the user in.  NOTE: place all your site's images in the
+      src/images/ directory.
+
+      3. Below the header, a multi-column layout of items you can purchase in the
+      store.  You must have at least 10 items in your store, and at least 2
+      categories of items. Each item should include: picture, title, description,
+      category, and price. Each item should be its own "card" (i.e., some kind of
+      box around each item separating one from the next, with suitable
+      whitespace between).
+
+      4. A sidebar on the left or right of the item layout section, showing the
+      different categories of items in your store.  If a user clicks on one of the
+      categories, use CSS and JavaScript to hide all other items in the store.
+      Make sure you include a way to once again see all categories, and make it
+      obvious to the user they they are only seeing a partial list of items when you
+      filter by category (i.e., use CSS and HTML to change things somehow).
+
+      5. Below the items, a footer with the name of the store, any relevant links you
+      need to give users, as well as a small HTML form for entering an Email
+      address and clicking Subscribe to subscribe to the store's newsletter. Use
+      https://formspree.io/ to automatically submit the form to your email address
+      (i.e., when a user fills out their email address and clicks submit, *you*
+      should get that information sent to your email address via formspree.io).
+
+      6. Use two different Web Fonts for your store.  The titles should be different
+      from any regular text.  Use a free font service like https://fonts.google.com/
+      or any other that you choose.
+
+      7. Pick a colour theme using a tool like https://colorhunt.co/ with at least
+      3 colours, and use them throughout your site for backgrounds, borders, fonts.
+      Your store page needs to look attractive and marks will be given for good a
+      good looking site.
+
+      8. You are welcome to use existing CSS libraries to help you with your layout,
+      but you must also include your own styles (i.e., you can't use a library
+      for everything in your design).
+
+      9. Make sure you don't use copyrighted materials from other sites.  If you use
+      icons, fonts, images, etc., make sure you are legally permitted to reuse them.
+      Some resources to consider:
+
+        - https://unsplash.com/ for images
+        - https://fontawesome.com/ for icons
+        - https://gallery.manypixels.co/ or https://undraw.co/illustrations for illustrations (SVG)
+      -->
+        <a href="index.html">
+            <img id="logo" src="images/logo.png" alt="logo" />
+        </a>
+        <header id="Title">All Of The Dogs</header>
+
+        <div class="MenuBar">
+            <a class="active" href="#">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About Us</a>
+            <a id="contact" href="contact.html">Contact Us</a>
+        </div>
+        <a href="products.html">
+            <img id="dog-running" src="images/test.gif" alt="picking up dogs" />
+        </a>
+        <div>
+            <div id="intro">
+                <p>
+                    All Of The Dogs is a boutique fashion for your pup. With
+                    tons of hand made styles to choose from your dog will be
+                    looking like they belong on the red carpet.
+                </p>
+            </div>
+
+            <div id="footer">
+                <table id="footertable">
+                    <thead>
+                        <tr>
+                            <th>QUICK LINKS</th>
+                            <th>RETURNS</th>
+                            <th>OTHER INFORMATION</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="products.html">PRODUCTS</a></td>
+                            <td><a href="returns.html">RETURN POLICY</a></td>
+                            <td><a href="PRIVACY.html">PRIVACY POLICY</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="about.html">ABOUT US</a></td>
+                            <td></td>
+                            <td><a href="TOS.html">TERMS & CONDITIONS</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="contact.html">CONTACT US</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <form
+                    id="form"
+                    action="https://formspree.io/ejohnson16@myseneca.ca"
+                    method="POST"
+                >
+                    <div id="signupbar">
+                        <label>Sign up for our mailing list!</label>
+                        <input
+                            placeholder="Example@Example.com"
+                            type="email"
+                            required
+                        />
+                        <input type="submit" value="Sign Up" />
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="products.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
