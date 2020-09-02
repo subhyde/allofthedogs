@@ -20,7 +20,7 @@
     "prepare-submission": "run-s prettier check zip"
   },
   "devDependencies": {
-    "bestzip": "^2.1.2",
+    "bestzip": "^2.1.7",
     "html-validator-cli": "^4.1.4",
     "http-server": "^0.11.1",
     "npm-run-all": "^4.1.5",
